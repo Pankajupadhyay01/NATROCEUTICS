@@ -46,7 +46,6 @@ const Navbar = () => {
     window.addEventListener('scroll', color)
 
     return (
-        <div>
             <nav className={`border-b-2 border-[#1d4130] ${sticky || nav ? "bg-blue" : "bg-white"} w-full fixed z-[1] py-8 md:py-0`}>
                 <div className={`mx-[20px] flex justify-between items-center text-[20px] ${sticky || nav ? "text-white" : "text-[#1d4130]"} font-semibold`}>
                     <div className={`uppercase ${sticky || nav ? "text-white" : "text-[#1d4130]"} text-3xl`}>
@@ -81,7 +80,6 @@ const Navbar = () => {
                 </div>
             </nav>
 
-        </div>
     );
 }
 
