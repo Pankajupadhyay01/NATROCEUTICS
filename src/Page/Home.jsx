@@ -1,6 +1,7 @@
 import React from 'react';
-import Journey from '../components/Journey';
-import Navbar from '../components/Navbar';
+import Hero from '../component.jsx/Hero';
+import Navbar from '../component.jsx/Navbar';
+import Text from '../component.jsx/text';
 
 const Home = () => {
   return (
