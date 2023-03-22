@@ -16,9 +16,7 @@ const Navbar = () => {
             name: "Contact",
             link: "/contact"
         }
-    ]
-
-    
+    ]    
 
     // usestate
     const [sticky, setsticky] = useState();
@@ -47,7 +45,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className={`border-b-2 border-[#1d4130] ${sticky || nav ? "bg-[#1d4130]" : "bg-white"} w-full md:static fixed z-[1] py-8 md:py-0`}>
+            <nav className={`border-b-2 border-[#1d4130] ${sticky || nav ? "bg-[#1d4130]" : "bg-white"} md:bg-white w-full md:static fixed z-[1] py-8 md:py-0`}>
                 <div className={`mx-[20px] flex justify-between items-center text-[20px] ${sticky || nav ? "text-white" : "text-[#1d4130]"} font-semibold`}>
                     <div className={`uppercase ${sticky || nav ? "text-white" : "text-[#1d4130]"} text-3xl`}>
                     natroceutics
@@ -62,7 +60,7 @@ const Navbar = () => {
                     </div>
 
                     <div className={`flex list-none absolute bg-[#1d4130] h-[134vh] justify-center w-[100%] ${nav?"left-0":"-left-[100%]"} top-0 flex-col items-center md:static md:h-0 md:w-auto md:flex-row text-[18px] md:text-[#1d4130] text-white font-thin -z-[1] md:z-0`}>
-                        <div className='md:flex border-y-2 border-[white] w-full'>
+                        <div className='md:flex md:border-y-0 border-y-2 border-[white] w-full'>
                              {
                             list.map(pro => (
                                 <li key={pro.name} className="mx-[13px] my-[20px]">
