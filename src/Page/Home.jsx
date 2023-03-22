@@ -1,14 +1,14 @@
 import React from 'react';
-import Hero from '../component.jsx/Hero';
-import Navbar from '../component.jsx/Navbar';
-import Video_sec from '../component.jsx/Video_sec';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Journey from '../components/Journey'
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>        
-      <Hero/> 
-      <Video_sec/>
+      <Navbar/>
+      <Hero/>
+      <Journey/>
     </div>
   );
 }
