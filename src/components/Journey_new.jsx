@@ -16,10 +16,10 @@ const Journey_new = () => {
                 </div>
 
                 <div className='w-[80%] md:w-[40%] h-[30vh] md:h-[60vh] items-center flex '>
-                    <div className='rounded-2xl border-2 w-full h-full right-0 top-0 left-0 m-auto border-[#1d4130] bg-[url("https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/636917161303a5b581dd8cf6_Natroceutics_Home_Our_Journey_Stem.jpg")] bg-cover bg-center'>
-                      
+                    <div className='rounded-2xl border-2 w-full h-full right-0 top-0 left-24 m-auto border-[#1d4130] bg-[url("https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/636917161303a5b581dd8cf6_Natroceutics_Home_Our_Journey_Stem.jpg")] bg-[620px] bg-contain bg-fixed'>
+
                     </div>
-                   
+
                 </div>
 
 
