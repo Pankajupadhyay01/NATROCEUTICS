@@ -1,13 +1,14 @@
 import React from 'react';
-import Hero from '../component.jsx/Hero';
-import Navbar from '../component.jsx/Navbar';
-import Text from '../component.jsx/text';
+import Navbar from '../components/Navbar';
+// import Text from '../component.jsx/text';
+import Hero from '../components/Hero'
+import Journey from '../components/Journey';
 
 const Home = () => {
   return (
     <>
       <Navbar/>
-      
+      <Hero/>
       <Journey/>
     </>
   );
