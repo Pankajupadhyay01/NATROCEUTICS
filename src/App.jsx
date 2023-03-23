@@ -1,12 +1,25 @@
-import React from 'react';
-import Home from './Page/Home';
+import { useEffect } from "react"
+import { useState } from "react"
+import PageLoader from "./components/PageLoader"
+import {motion} from 'framer-motion'
+import Home from './Page/Home'
 
-const App = () => {
+
+function App() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 3000)
+  }, [])
   return (
-    <div>
-      <Home/>
-    </div>
-  );
+    <>
+      {!loading ? 
+        <Home/>
+      :
+          <PageLoader />
+      }
+    </>
+  )
 }
 
-export default App;
+export default App

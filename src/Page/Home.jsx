@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
-      <Hero/>   
+      <Hero/>
       <Video/>
       <Journey_new/>
     </div>
