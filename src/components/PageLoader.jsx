@@ -24,7 +24,7 @@ const letter = {
 
 const PageLoader = () => {
     const [show, setShow] = useState(false);
-    const textName = "KAUSHIK";
+    const textName = "Natroceutics";
 
 
     useEffect(() => {
