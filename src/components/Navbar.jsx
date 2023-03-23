@@ -47,10 +47,10 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className={`border-b-2 border-[#1d4130] ${sticky || nav ? "bg-[#1d4130]" : "bg-white"} w-full md:static fixed z-[1] py-8 md:py-0`}>
+            <nav className={`border-b-2 border-[#1d4130] ${sticky || nav ? "bg-[#1d4130]" : "bg-white"} md:bg-white w-full fixed z-[1] py-8 md:py-0`}>
                 <div className={`mx-[20px] flex justify-between items-center text-[20px] ${sticky || nav ? "text-white" : "text-[#1d4130]"} font-semibold`}>
-                    <div className={`uppercase ${sticky || nav ? "text-white" : "text-[#1d4130]"} text-3xl`}>
-                    natroceutics
+                    <div className={`uppercase ${sticky || nav ? "text-white" : "text-[#1d4130]"} text-xl md:text-3xl`}>
+                        <span className='md:text-[#1d4130]'>natroceutics</span> 
                     </div>
 
                     <div onClick={func} className="md:hidden uppercase font-thin text-[18px]">
